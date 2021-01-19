@@ -9,7 +9,11 @@ Base template for developing a Keycloak theme.
   * Modify any of the files within your custom theme directory. Assuming you are extending the ``base`` or ``keycloak`` theme, you only need to override the files you want to change.
   * To easily iterate without having to restart the server every time, load keycloak from docker with a script that turns theme caching off:
   ```
-  docker run --name keycloak-theme -d -p 9000:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin --mount type=bind,source=$(pwd)/src/main/resources/theme/example/,target=/opt/jboss/keycloak/themes/example -v $(pwd)/docker/no-cache-theme.cli:/opt/jboss/startup-scripts/no-cache-theme.cli jboss/keycloak:12.0.2
+  docker run --name keycloak-theme -d -p 9000:8080 \
+      -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin \
+	  --mount type=bind,source=$(pwd)/src/main/resources/theme/example/,target=/opt/jboss/keycloak/themes/example \
+	  -v $(pwd)/docker/no-cache-theme.cli:/opt/jboss/startup-scripts/no-cache-theme.cli \
+	  jboss/keycloak:12.0.2
   ```
 
 ## Packaging the theme for deployment
