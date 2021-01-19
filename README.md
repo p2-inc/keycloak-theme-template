@@ -16,6 +16,11 @@ Base template for developing a Keycloak theme.
 	  jboss/keycloak:12.0.2
   ```
 
+## Testing your theme
+
+  * Login to the admin console at `http://localhost:9000/auth/admin` with `admin:admin`
+  * Go into `Realm Settings`->`Themes` and select the theme you are working on (e.g. Login->example)
+  
 ## Packaging the theme for deployment
 
   * Run `mvn package` to build a jar that can be placed in the `standalone/deployments` directory of your Keycloak installation.
