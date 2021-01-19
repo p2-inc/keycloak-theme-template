@@ -1,0 +1,10 @@
+{
+  "themes": [
+    {
+      "name": "example",
+      "types": [
+        "login"
+      ]
+    }
+  ]
+}

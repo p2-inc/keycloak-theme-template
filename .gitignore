@@ -1,0 +1,13 @@
+data/
+target/
+*~
+*.DS_Store
+.idea
+.settings
+.project
+tmp/*
+dependency-reduced-pom.xml
+.classpath
+.factorypath
+.vscode
+.swagger*
