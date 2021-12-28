@@ -13,7 +13,7 @@ Base template for developing a Keycloak theme.
       -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin \
 	  --mount type=bind,source=$(pwd)/src/main/resources/theme/example/,target=/opt/jboss/keycloak/themes/example \
 	  -v $(pwd)/docker/no-cache-theme.cli:/opt/jboss/startup-scripts/no-cache-theme.cli \
-	  quay.io/keycloak/keycloak:15.0.2
+	  quay.io/keycloak/keycloak:16.1.0
   ```
 
 ## Testing your theme
