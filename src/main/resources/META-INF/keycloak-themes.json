@@ -5,6 +5,24 @@
       "types": [
         "login"
       ]
-    }
+    },
+    {
+      "name": "consumer",
+      "types": [
+        "login"
+      ]
+    },
+    {
+      "name": "enterprise",
+      "types": [
+        "login"
+      ]
+    },
+    {
+      "name": "saas",
+      "types": [
+        "login"
+      ]
+    },
   ]
 }

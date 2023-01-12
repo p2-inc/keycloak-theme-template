@@ -8,8 +8,8 @@
   <properties>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <main.java.package>io.phasetwo</main.java.package>
-    <keycloak.version>19.0.3</keycloak.version>
+    <main.java.package>io.phasetwo.keycloak.themes.examples</main.java.package>
+    <keycloak.version>20.0.3</keycloak.version>
   </properties>
 
   <scm>
