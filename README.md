@@ -2,7 +2,7 @@
 
 # Example themes
 
-This is a repository of example CSS-only themes that can be be used in Phase Two's enhanced Keycloak without installing a custom library.
+This is a repository of example CSS-only themes that can be be used in Phase Two's enhanced Keycloak without installing a custom library. There is also a [theme template](#keycloak-theme-template) below.
 
 ## tl;dr
 
