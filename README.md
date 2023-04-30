@@ -9,6 +9,8 @@ The 3 example CSS themes that can be be used in Phase Two's enhanced Keycloak wi
 - Enterprise [enterprise/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/enterprise/login/resources/css/enterprise/login.css)
 - SaaS [saas/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/saas/login/resources/css/example/login.css)
 
+Look at the [article](https://phasetwo.io/blog/customizing-login-pages) for more information on using the CSS directly with the [Phase Two Themes extension](https://github.com/p2-inc/keycloak-themes).
+
 Install them in the Phase Two Admin UI console by navigating to the **Styles** section and selecting the **Login** tab. Paste the style into the *CSS* field and click *Save*.
 ![Screenshot from 2023-01-12 21-20-30](https://user-images.githubusercontent.com/244253/212172497-0b8f3548-cbc3-49b1-9d20-65d631b7baa2.png)
 
