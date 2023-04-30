@@ -7,7 +7,7 @@ This repository contains examples for developing a Keycloak login theme locally.
 The 3 example CSS themes that can be be used in Phase Two's enhanced Keycloak without installing a custom library:
 - Consumer [consumer/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/consumer/login/resources/css/consumer/login.css)
 - Enterprise [enterprise/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/enterprise/login/resources/css/enterprise/login.css)
-- SaaS [saas/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/saas/login/resources/css/example/login.css)
+- SaaS [saas/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/saas/login/resources/css/saas/login.css)
 
 Look at the [article](https://phasetwo.io/blog/customizing-login-pages) for more information on using the CSS directly with the [Phase Two Themes extension](https://github.com/p2-inc/keycloak-themes).
 
