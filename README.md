@@ -1,12 +1,10 @@
 > :rocket: **Try it for free** in the new Phase Two [keycloak managed service](https://phasetwo.io/dashboard/?utm_source=github&utm_medium=readme&utm_campaign=keycloak-theme-template). See the [announcement and demo video](https://phasetwo.io/blog/self-service/) for more information.
 
-# Example themes
+This repository contains examples for developing a Keycloak login theme locally. You can use the examples directly, customize them and package them with the included Maven project, or use the CSS directly if you are using the [Phase Two Themes extension](https://github.com/p2-inc/keycloak-themes).
 
-This is a repository of example CSS-only themes that can be be used in Phase Two's enhanced Keycloak without installing a custom library. There is also a [theme template](#keycloak-theme-template) below.
+## Sample themes
 
-## tl;dr
-
-The 3 example CSS themes:
+The 3 example CSS themes that can be be used in Phase Two's enhanced Keycloak without installing a custom library:
 - Consumer [consumer/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/consumer/login/resources/css/consumer/login.css)
 - Enterprise [enterprise/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/enterprise/login/resources/css/enterprise/login.css)
 - SaaS [saas/login.css](https://github.com/p2-inc/keycloak-theme-template/blob/master/src/main/resources/theme/saas/login/resources/css/example/login.css)
