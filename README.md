@@ -1,5 +1,5 @@
-> :rocket: **Try it for free** in the new Phase Two [keycloak managed service](https://phasetwo.io/dashboard/?utm_source=github&utm_medium=readme&utm_campaign=keycloak-theme-template). See the [announcement and demo video](https://phasetwo.io/blog/self-service/) for more information.
-
+> :rocket: **Try it for free** in the new Phase Two [keycloak managed service](https://phasetwo.io/?utm_source=github&utm_medium=readme&utm_campaign=keycloak-theme-template).
+> 
 This repository contains examples for developing a Keycloak login theme locally. You can use the examples directly, customize them and package them with the included Maven project, or use the CSS directly if you are using the [Phase Two Themes extension](https://github.com/p2-inc/keycloak-themes).
 
 ## Sample themes
