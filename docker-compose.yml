@@ -2,7 +2,7 @@ version: '3'
 
 services:
   keycloak:
-      image: quay.io/keycloak/keycloak:21.1.1
+      image: quay.io/keycloak/keycloak:23.0.6
       environment:
         KEYCLOAK_ADMIN: admin
         KEYCLOAK_ADMIN_PASSWORD: admin
@@ -11,4 +11,4 @@ services:
         - 8080:8080
       volumes: 
         - ./src/main/resources/theme/:/opt/keycloak/themes/
-      command: [ "start-dev" ] 
+      entrypoint: /opt/keycloak/bin/kc.sh --verbose start-dev --spi-theme-static-max-age=-1 --spi-theme-cache-themes=false --spi-theme-cache-templates=false
